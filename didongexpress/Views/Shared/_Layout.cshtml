@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" charset="utf-8" content="width=device-width" />  
+    <title>Di Dong Express</title>
+    <link href="~/Content/styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+
+    @Html.Partial("_Header")
+
+    @RenderBody()
+
+    @Html.Partial("_Footer")    
+
+    <script src="~/Scripts/bootstrap.js"></script>
+
+    <script src="@Url.Content("~/Scripts/bootstrap.js")"></script>
+</body>
+</html>

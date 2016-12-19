@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "About";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <h1>this is layout 3</h1>
+    <h2>@ViewBag.Title.</h2>
+    <h3>@ViewBag.Message</h3>
+
+    <p>Use this area to provide additional information.</p>
+
+    <div>
+        @Html.Partial("_AboutPartial")
+    </div>
+</body>
+</html>
