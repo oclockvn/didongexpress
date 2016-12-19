@@ -1,4 +1,7 @@
-body {
-  background: #4caf50;
-  display: -ms-flexbox;
-  display: flex; }
+html, body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+  font-size: 1em;
+  font-weight: 400;
+  background: #ddd;
+  color: #fff; }

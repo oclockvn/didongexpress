@@ -1,12 +1,3 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
-@helper MyImage(string url, string title)
-{ 
-    <img class="img-responsive" title="@title" src="@Url.Content(url)" />
-}
-
-<div class="img-container">
-    @MyImage("~/Content/images/logo.png", "this is logo")
-</div>

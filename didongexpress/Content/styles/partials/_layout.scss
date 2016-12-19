@@ -1,4 +1,8 @@
-﻿body {
-    background: $main; // import from _variables
-    display: flex; // autoprefixer using vender-prefix
+﻿html, body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    font-size: 1em;
+    font-weight: 400;
+    background: #ddd;
+    color: #fff;
 }

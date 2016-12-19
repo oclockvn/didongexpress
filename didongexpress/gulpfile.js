@@ -6,10 +6,10 @@
 
 // styles task
 var cssTask = gulp.task('css', function () {
-    return scss('./Content/styles/styles.scss')
+    return scss('./Content/**/*.scss')        
         .pipe(postcss([autoprefixer({ browsers: ['last 2 versions'] })]))
-        .pipe(gulp.dest('./Content/styles/'))
-        .pipe(notify({ message: 'css task completed' }));
+        .pipe(gulp.dest(function (file) { return file.base; }))
+        .pipe(notify({ message: 'css task completed' }));    
 });
 
 // js task
@@ -18,5 +18,5 @@ var cssTask = gulp.task('css', function () {
 
 // watch
 gulp.task('watch', function () {
-    gulp.watch('./Content/styles/styles.scss', ['css']); // watch file `./Content/styles/styles.scss` and run task `css`
+    gulp.watch('./Content/**/*.scss', ['css']); // watch file `./Content/**/*.scss` and run task `css`
 });
