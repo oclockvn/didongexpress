@@ -1,1 +1,154 @@
-﻿
+﻿.header {
+    border-top: 3px solid $red;
+}
+
+.header-container {
+    display: flex;
+
+
+    .header__left {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header__right {
+        flex: 1;
+    }
+
+    .header__top {
+        background: $grey;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        border-bottom-left-radius: 50px;
+        max-width: 600px;
+        margin-left: auto;
+    }
+}
+
+.header__top {
+    ul {
+        a {
+            display: block;
+            padding: 6px 10px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: .85rem;
+            color: $dark;
+        }
+    }
+
+    li {
+        padding: 4px 0;
+        float: left;
+        cursor: pointer;
+
+        &:last-child {
+            a {
+                border-left: 1px solid $dark;
+            }
+        }
+
+        &:hover {
+            background: #fff;
+        }
+    }
+
+    a {
+        .fa {
+            margin-left: 10px;
+        }
+    }
+
+    > h3 {
+        margin: 0;
+        padding: 8px 10px;
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: $red;
+        cursor: pointer;
+        transition: .3s ease-in-out;
+
+        .fa {
+            background: $red;
+            color: #fff;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            line-height: 25px;
+            border-radius: 50%;
+        }
+
+        &:hover {
+            background: $red;
+            color: #fff;
+        }
+    }
+}
+
+.navigation {    
+    margin-top: 15px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+    li {
+        float: left;
+        display: block;
+    }
+
+    > li { /* will have sub menu */
+        > a {
+            display: block;
+            text-transform: uppercase;
+            padding: 5px 10px;
+            font-weight: 600;
+            text-decoration: none;
+            color: $dark;
+        }
+    }
+
+    a {
+        &:hover {
+            color: $red;
+        }
+    }
+}
+
+.header__search {
+    display: inline-block;
+    border: 1px solid #111;
+    border-top-left-radius: 20px;
+    position: relative;
+    margin-right: 30px;
+    float: right;
+
+    input {
+        outline: none;
+        border: none;
+        border-top-left-radius: 20px;
+        color: $dark;
+        font-size: 1rem;
+        padding: 2px 20px;
+    }
+
+    span {
+        border: 3px solid $red;
+        color: $red;
+        display: inline-block;
+        border-radius: 8px;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        line-height: 30px;
+        position: absolute;
+        bottom: -2px;
+        left: 100%;
+        margin-left: -4px;
+        background: #fff;
+    }
+}

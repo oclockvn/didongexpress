@@ -3,5 +3,118 @@ html, body {
   font-size: 12px;
   font-size: 1em;
   font-weight: 400;
-  background: #ddd;
+  background: #fff;
   color: #fff; }
+
+.header {
+  border-top: 3px solid #ef4136; }
+
+.header-container {
+  display: -ms-flexbox;
+  display: flex; }
+  .header-container .header__left {
+    margin: 0;
+    padding: 0; }
+  .header-container .header__right {
+    -ms-flex: 1;
+        flex: 1; }
+  .header-container .header__top {
+    background: #f3f3f3;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    border-bottom-left-radius: 50px;
+    max-width: 600px;
+    margin-left: auto; }
+
+.header__top ul a {
+  display: block;
+  padding: 6px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: .85rem;
+  color: #58595b; }
+.header__top li {
+  padding: 4px 0;
+  float: left;
+  cursor: pointer; }
+  .header__top li:last-child a {
+    border-left: 1px solid #58595b; }
+  .header__top li:hover {
+    background: #fff; }
+.header__top a .fa {
+  margin-left: 10px; }
+.header__top > h3 {
+  margin: 0;
+  padding: 8px 10px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #ef4136;
+  cursor: pointer;
+  transition: .3s ease-in-out; }
+  .header__top > h3 .fa {
+    background: #ef4136;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%; }
+  .header__top > h3:hover {
+    background: #ef4136;
+    color: #fff; }
+
+.navigation {
+  margin-top: 15px; }
+
+.menu {
+  margin: 0;
+  padding: 0;
+  display: inline-block; }
+  .menu li {
+    float: left;
+    display: block; }
+  .menu > li {
+    /* will have sub menu */ }
+    .menu > li > a {
+      display: block;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      font-weight: 600;
+      text-decoration: none;
+      color: #58595b; }
+  .menu a:hover {
+    color: #ef4136; }
+
+.header__search {
+  display: inline-block;
+  border: 1px solid #111;
+  border-top-left-radius: 20px;
+  position: relative;
+  margin-right: 30px;
+  float: right; }
+  .header__search input {
+    outline: none;
+    border: none;
+    border-top-left-radius: 20px;
+    color: #58595b;
+    font-size: 1rem;
+    padding: 2px 20px; }
+  .header__search span {
+    border: 3px solid #ef4136;
+    color: #ef4136;
+    display: inline-block;
+    border-radius: 8px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    bottom: -2px;
+    left: 100%;
+    margin-left: -4px;
+    background: #fff; }
