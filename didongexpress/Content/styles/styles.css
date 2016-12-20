@@ -1,3 +1,6 @@
+.tc-red {
+  color: #ef4136; }
+
 html, body {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 12px;
@@ -30,14 +33,20 @@ html, body {
     max-width: 600px;
     margin-left: auto; }
 
+.header__left .logo {
+  display: block;
+  padding: 10px 2rem 10px 0; }
+
 .header__top ul a {
   display: block;
-  padding: 6px 10px;
+  padding: 0 10px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 300;
   font-size: .85rem;
-  color: #58595b; }
+  color: #58595b;
+  line-height: 2rem;
+  height: 2rem; }
 .header__top li {
   padding: 4px 0;
   float: left;
@@ -47,7 +56,9 @@ html, body {
   .header__top li:hover {
     background: #fff; }
 .header__top a .fa {
-  margin-left: 10px; }
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.25rem; }
 .header__top > h3 {
   margin: 0;
   padding: 8px 10px;
@@ -72,7 +83,7 @@ html, body {
   margin-top: 15px; }
 
 .menu {
-  margin: 0;
+  margin-left: 3rem;
   padding: 0;
   display: inline-block; }
   .menu li {
@@ -83,12 +94,14 @@ html, body {
     .menu > li > a {
       display: block;
       text-transform: uppercase;
-      padding: 5px 10px;
+      padding: 5px 15px;
       font-weight: 600;
       text-decoration: none;
-      color: #58595b; }
+      color: #58595b;
+      font-size: .9rem; }
   .menu a:hover {
-    color: #ef4136; }
+    color: #ef4136;
+    background: #f3f3f3; }
 
 .header__search {
   display: inline-block;
@@ -104,17 +117,28 @@ html, body {
     color: #58595b;
     font-size: 1rem;
     padding: 2px 20px; }
-  .header__search span {
+  .header__search .btn-search {
     border: 3px solid #ef4136;
+    outline: none;
     color: #ef4136;
     display: inline-block;
     border-radius: 8px;
     width: 35px;
     height: 35px;
     text-align: center;
-    line-height: 30px;
     position: absolute;
     bottom: -2px;
     left: 100%;
     margin-left: -4px;
-    background: #fff; }
+    background: #fff;
+    transition: background color .3s ease-in-out; }
+    .header__search .btn-search:hover {
+      background: #ef4136;
+      color: #fff; }
+
+.footer .footer-1 {
+  background: #f8f8f8; }
+.footer .footer-2 {
+  background: #eee; }
+.footer .footer-3 {
+  background: #e2e1e1; }

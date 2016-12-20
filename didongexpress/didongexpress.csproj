@@ -237,6 +237,8 @@
     <Content Include="Content\styles\partials\_header.scss" />
     <Content Include="gulpfile.js" />
     <Content Include="package.json" />
+    <Content Include="Content\styles\partials\_footer.scss" />
+    <Content Include="Content\styles\modules\_common.scss" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
