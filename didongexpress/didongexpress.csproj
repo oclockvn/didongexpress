@@ -215,6 +215,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\support_footer.png" />
+    <Content Include="Content\images\thong_bao_bct.png" />
     <Content Include="Content\spacing.min.css" />
     <Content Include="Content\styles\styles.css" />
     <Content Include="favicon.ico" />
@@ -295,6 +297,7 @@
     <Content Include="Views\Home\_AboutPartial.cshtml" />
     <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Home\_GuideSection.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
