@@ -218,6 +218,7 @@
     <Content Include="Content\images\banner_info_2.jpg" />
     <Content Include="Content\images\banner_info_3.jpg" />
     <Content Include="Content\images\banner_info_4.jpg" />
+    <Content Include="Content\images\logo-fpt.png" />
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\news\2016-12-22-khai-truong-online-1200x628in_large.jpg" />
     <Content Include="Content\images\support_footer.png" />
@@ -248,6 +249,7 @@
     <Content Include="Content\styles\modules\_common.scss" />
     <Content Include="Content\styles\partials\_guide.scss" />
     <Content Include="Content\styles\partials\_news.scss" />
+    <Content Include="Content\styles\partials\_index.scss" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -266,6 +268,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Uploads\437_htc_desire_10pro_royal_blue_a_medium.png" />
     <Content Include="Views\Test\Index2.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -306,6 +309,7 @@
     <Content Include="Views\Shared\_Footer.cshtml" />
     <Content Include="Views\Home\_NewsSection.cshtml" />
     <Content Include="Views\Home\_GuideSection.cshtml" />
+    <Content Include="Views\Home\_ProductIndex.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

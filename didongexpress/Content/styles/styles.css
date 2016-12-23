@@ -247,6 +247,11 @@ html, body {
   font-weight: 300;
   font-size: .9rem; }
 
+.section-guide > .container {
+  border-top: 2px solid #ddd;
+  padding-top: 2rem;
+  margin-top: 2rem; }
+
 .guide {
   margin-bottom: 16px; }
 
@@ -263,7 +268,7 @@ html, body {
   padding: 2rem 0;
   color: #111; }
   .news-section > .container {
-    border: 2px solid #58595b;
+    border: 2px solid #ddd;
     border-left: none;
     border-right: none;
     padding-top: 1.5rem;
@@ -296,3 +301,68 @@ html, body {
   text-decoration: none !important; }
   .read-more:hover {
     background: #58595b; }
+
+.pi {
+  text-align: center;
+  margin-bottom: 1rem; }
+
+.pi__image.fpt-logo {
+  background: url(/Content/images/logo-fpt.png) top right no-repeat;
+  background-size: 50px auto; }
+.pi__image img {
+  display: inline-block; }
+
+.pi__name a {
+  color: #111;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem; }
+
+.pi__price {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+  .pi__price > div {
+    -ms-flex: 1;
+        flex: 1; }
+  .pi__price .pull-left {
+    text-align: right; }
+
+.in-price {
+  color: #ef4136;
+  font-weight: 600;
+  font-size: 1.25rem; }
+
+.out-price {
+  text-decoration: line-through; }
+
+.discount-price {
+  color: #ef4136; }
+
+.button-buy {
+  border: 1px solid #111;
+  display: inline-block;
+  color: #58595b;
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding: 2px 8px;
+  border-radius: 14px;
+  text-decoration: none !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4); }
+
+.button-buy:hover {
+  background: red;
+  color: #fff;
+  border-color: #ef4136; }
+
+.section-title {
+  margin: 0;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ddd; }
+
+.section-title h2 {
+  margin-top: 2.5rem;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  font-weight: 600; }

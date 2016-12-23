@@ -1,5 +1,13 @@
-﻿.guide {   
-     margin-bottom: 16px;
+﻿.section-guide {
+    > .container {
+        border-top: 2px solid #ddd;
+        padding-top: 2rem;
+        margin-top: 2rem;
+    }
+}
+
+.guide {
+    margin-bottom: 16px;
 }
 
 .guide img {

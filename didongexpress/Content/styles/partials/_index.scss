@@ -1,0 +1,80 @@
+﻿.pi {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.pi__image {
+    &.fpt-logo {
+        background: url(/Content/images/logo-fpt.png) top right no-repeat;
+        background-size: 50px auto;
+    }
+
+    img {
+        display: inline-block;
+    }
+}
+
+.pi__name a {
+    color: #111;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.pi__price {
+    display: flex;
+    align-items: center;
+
+    > div {
+        flex: 1;
+    }
+
+    .pull-left {
+        text-align: right;
+    }
+}
+
+.in-price {
+    color: $red;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.out-price {
+    text-decoration: line-through;
+}
+
+.discount-price {
+    color: $red;
+}
+
+.button-buy {
+    border: 1px solid #111;
+    display: inline-block;
+    color: $dark;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 2px 8px;
+    border-radius: 14px;
+    text-decoration: none !important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+}
+
+.button-buy:hover {
+    background: red;
+    color: #fff;
+    border-color: $red;
+}
+
+.section-title {
+    margin: 0;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ddd;
+}
+
+.section-title h2 {
+    margin-top: 2.5rem;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
