@@ -53,6 +53,10 @@
     margin: 15px 0;
     color: $dark;
 
+    > h4 {
+        font-weight: 600;
+    }
+
     ul {
         margin: 0;
         padding: 0;

@@ -1,0 +1,18 @@
+﻿.guide {   
+     margin-bottom: 16px;
+}
+
+.guide img {
+    max-width: 100%;
+    height: auto;
+}
+
+.row-guide > div {
+    &:nth-child(odd) {
+        padding-right: 8px;
+    }
+
+    &:nth-child(even) {
+        padding-left: 8px;
+    }
+}

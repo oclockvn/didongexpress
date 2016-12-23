@@ -1,6 +1,10 @@
 .tc-red {
   color: #ef4136; }
 
+.no-gutter > [class*=col-] {
+  padding-left: 0;
+  padding-right: 0; }
+
 html, body {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 12px;
@@ -175,6 +179,8 @@ html, body {
 .footer-store {
   margin: 15px 0;
   color: #58595b; }
+  .footer-store > h4 {
+    font-weight: 600; }
   .footer-store ul {
     margin: 0;
     padding: 0;
@@ -240,3 +246,53 @@ html, body {
 .footer-3 {
   font-weight: 300;
   font-size: .9rem; }
+
+.guide {
+  margin-bottom: 16px; }
+
+.guide img {
+  max-width: 100%;
+  height: auto; }
+
+.row-guide > div:nth-child(odd) {
+  padding-right: 8px; }
+.row-guide > div:nth-child(even) {
+  padding-left: 8px; }
+
+.news-section {
+  padding: 2rem 0;
+  color: #111; }
+  .news-section > .container {
+    border: 2px solid #58595b;
+    border-left: none;
+    border-right: none;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; }
+
+.news a {
+  color: #111;
+  font-weight: 300; }
+.news h3 {
+  font-weight: 600;
+  font-size: 2rem; }
+.news h4 a {
+  font-weight: 600; }
+.news li > li {
+  margin-top: 5px; }
+.news li:before {
+  content: "";
+  margin-right: .5rem;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ef4136; }
+
+.read-more {
+  display: inline-block;
+  background: #ddd;
+  padding: 5px 25px;
+  border-radius: 25px;
+  text-decoration: none !important; }
+  .read-more:hover {
+    background: #58595b; }

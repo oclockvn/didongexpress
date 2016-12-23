@@ -1,0 +1,45 @@
+﻿<section class="news-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="news">
+                    <h3>Tin tức</h3>
+                    <ul class="mb list-unstyled">
+                        <!-- load from db -->
+                        <li><a href="#">Oppo F1s sẽ ra mắt thêm màu mới vào tháng sau</a></li>
+                        <li><a href="#">Xuất hiện đối thủ xứng tầm của Oppo F1s và Samsung Galaxy J7 Prime</a></li>
+                        <li><a href="#">Đâu là chiếc điện thoại dẫn đầu doanh số tuần qua tại DidongExpress?</a></li>
+                        <li><a href="#">4 lầm tưởng về điện thoại không phải ai cũng biết</a></li>
+                    </ul>
+                    <a href="#" class="read-more">Xem thêm</a>
+                </div>
+            </div>
+            <!-- this column col-md-3 is separate with col-md-9 -->
+
+            <div class="col-md-9">
+                <div class="row">
+                    @for (int i = 0; i < 3; i++)
+                    {
+                        <div class="col-md-4">
+                            <div class="news">
+                                <a href="#">
+                                    <img src="~/Content/images/news/2016-12-22-khai-truong-online-1200x628in_large.jpg" class="img-responsive" />
+                                </a>
+                                <h4 class="news__title">
+                                    <a href="#">Tưng bừng khai trương - Nhận ngàn giải thưởng</a>
+                                </h4>
+                                <p class="news__desc">
+                                    Cơ hội mua iPhone 7 32GB với giá 11 triệu đồng cùng nhiều sản phẩm smartphone đồng giá 1.000.000đ từ...
+                                </p>
+                                <div class="clearfix">
+                                    <a href="#" class="read-more pull-right">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <!-- so make a new row -->
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,3 +1,8 @@
 ﻿.tc-red { // == text-color-main
     color: $red;
 }
+
+.no-gutter > [class*=col-] {
+    padding-left: 0;
+    padding-right: 0;
+}
