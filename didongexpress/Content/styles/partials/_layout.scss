@@ -6,3 +6,23 @@
     background: #fff;
     color: $dark;
 }
+
+.button-scroll-top {
+    text-decoration: none !important;
+    position: fixed;
+    right: 32px;
+    bottom: 64px;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;    
+    color: $dark;
+    text-align: center;
+    transition: .4s ease-in-out;
+    opacity: 0;
+    
+    &.show-up {
+        opacity: 1; // fade in just like didongexpress
+    }    
+}

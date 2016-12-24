@@ -1,6 +1,9 @@
 .tc-red {
   color: #ef4136; }
 
+.tc-money {
+  color: #c61b11 !important; }
+
 .no-gutter > [class*=col-] {
   padding-left: 0;
   padding-right: 0; }
@@ -12,6 +15,23 @@ html, body {
   font-weight: 400;
   background: #fff;
   color: #58595b; }
+
+.button-scroll-top {
+  text-decoration: none !important;
+  position: fixed;
+  right: 32px;
+  bottom: 64px;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  color: #58595b;
+  text-align: center;
+  transition: .4s ease-in-out;
+  opacity: 0; }
+  .button-scroll-top.show-up {
+    opacity: 1; }
 
 .header {
   border-top: 3px solid #ef4136; }
@@ -381,4 +401,71 @@ html, body {
     background: yellow !important; }
 
 .bx-wrapper {
-  margin: 1rem 0 2rem; }
+  margin: 0 !important; }
+
+.cart-container {
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem; }
+
+.table-cart td {
+  vertical-align: middle !important; }
+.table-cart th {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600; }
+.table-cart tbody tr:last-child td {
+  border-bottom: 1px solid #ddd; }
+
+.cart-p-name a {
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-align: center;
+  display: block;
+  color: #58595b;
+  padding: 10px;
+  text-decoration: none !important; }
+
+.cart-p-image {
+  display: block; }
+  .cart-p-image img {
+    margin: auto; }
+
+.cart-info > h4 {
+  margin: 0;
+  font-weight: 400;
+  padding-bottom: 2px; }
+
+.cart__qty .qty-input {
+  max-width: 50px;
+  text-align: center;
+  background: #ddd;
+  border: none;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 1.25rem; }
+.cart__qty .qty-change {
+  /* qty-change */
+  display: inline-block;
+  color: #ef4136;
+  padding: 0 16px; }
+
+.cart__price .tc-money {
+  font-weight: 600;
+  font-size: 1.4rem; }
+
+.cart-p-remove {
+  color: #58595b; }
+
+.checkout-button {
+  border: 1px solid #ddd;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 2rem;
+  text-decoration: none !important;
+  color: #ef4136;
+  border-radius: 50px; }
+  .checkout-button:hover {
+    color: #fff;
+    background: #ef4136; }

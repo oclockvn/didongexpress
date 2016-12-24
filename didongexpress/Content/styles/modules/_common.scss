@@ -2,6 +2,10 @@
     color: $red;
 }
 
+.tc-money {
+    color: $money !important;
+}
+
 .no-gutter > [class*=col-] {
     padding-left: 0;
     padding-right: 0;

@@ -198,6 +198,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ShoppingCartController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -255,10 +256,12 @@
     <Content Include="Content\styles\partials\_guide.scss" />
     <Content Include="Content\styles\partials\_news.scss" />
     <Content Include="Content\styles\partials\_index.scss" />
+    <Content Include="Scripts\app\app.js" />
     <Content Include="Scripts\app\common.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\styles\partials\_slider.scss" />
+    <Content Include="Content\styles\partials\_cart.scss" />
     <None Include="Scripts\jquery-2.2.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.4.js" />
     <Content Include="Scripts\jquery-2.2.4.min.js" />
@@ -269,11 +272,15 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jquery.waypoints.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\velocity.min.js" />
+    <Content Include="Scripts\waypoint-0.2.8.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Uploads\437_htc_desire_10pro_royal_blue_a_medium.png" />
+    <Content Include="Uploads\sdp_20pisen_20easy_20power_205000mah_201_medium.png" />
     <Content Include="Views\Test\Index2.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -316,6 +323,7 @@
     <Content Include="Views\Home\_GuideSection.cshtml" />
     <Content Include="Views\Home\_ProductIndex.cshtml" />
     <Content Include="Views\Home\_Slider.cshtml" />
+    <Content Include="Views\ShoppingCart\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

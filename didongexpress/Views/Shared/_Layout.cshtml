@@ -16,12 +16,19 @@
 
     @RenderBody()
 
-    @Html.Partial("_Footer")    
+    @Html.Partial("_Footer")
+
+    <a href="#" class="button-scroll-top" id="button-scroll-top">
+        <i class="fa fa-2x fa-chevron-up"></i>
+    </a>
 
     
     <script src="~/Scripts/jquery-2.2.4.js"></script><!-- use $ 2x, or you can choose another slider -->
+    <script src="~/Scripts/velocity.min.js"></script><!-- after jquery, becuz valocity can use jquery as dependency -->    
+    <script src="~/Scripts/jquery.waypoints.min.js"></script>
     <script src="~/Scripts/bootstrap.js"></script>
     <script src="~/Scripts/jquery.bxslider.min.js"></script><!-- vl, bxslider does not work with jquery 3x-->
+    <script src="~/Scripts/app/app.js"></script>
     <script src="~/Scripts/app/common.js"></script>
 </body>
 </html>
