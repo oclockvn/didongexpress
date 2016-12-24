@@ -1,0 +1,174 @@
+﻿@{
+    Layout = null; // new layout
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" charset="utf-8" content="width=device-width" />
+    <title>Di Dong Express</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&amp;subset=vietnamese" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/spacing.min.css" rel="stylesheet" />
+    <link href="~/Content/jquery.bxslider.css" rel="stylesheet" />
+    <link href="~/Content/styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="text-center">
+            <a href="#">
+                <img src="~/Content/images/logo.png" class="img-responsive" />
+            </a>
+            <a href="#" class="pull-left">
+                <i class="fa fa-2x fa-arrow-left"></i>
+            </a>
+        </div> 
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="co-title">Thông tin giao hàng</h3>
+                <div>
+                    <a href="#">Đăng ký tài khoản mua hàng</a>
+                    <span>|</span>
+                    <a href="#">Đăng nhập</a>
+                </div>
+                <a href="#">Mua không cần tài khoản</a>
+                <div class="form-group">
+                    <i class="fa fa-asterisk"></i>
+                    <input type="text" value="" class="form-control" placeholder="Họ và tên" />
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-asterisk"></i>
+                    <input type="text" value="" class="form-control" placeholder="Số điện thoại" />
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-asterisk"></i>
+                    <input type="email" value="" class="form-control" placeholder="Email" />
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-asterisk"></i>
+                    <input type="text" value="" class="form-control" placeholder="Địa chỉ giao hàng" />
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-asterisk"></i>
+                    <select class="form-control">
+                        <option>Vui lòng chọn tỉnh/thành phố</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-asterisk"></i>
+                    <select class="form-control">
+                        <option></option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-asterisk"></i>
+                    <textarea rows="3" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h3 class="co-title">thanh toán</h3>
+                <ul class="list-unstyled m0">
+                    <li>
+                        <div>
+                            <label>
+                                <input type="radio" value="" /> Thanh toán khi giao hàng (COD)
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <label>
+                                <input type="radio" value="" /> Chuyển khoản qua ngân hàng
+                            </label>
+                        </div>
+                        <div>
+                            Công ty Cổ phần đầu tư và thương mại số VietEcom<br />
+                            Thông tin tài khoản:
+                            <p>
+                                Agribank - Chi nhánh Láng Hạ<br />
+                                STK: 1400206029830
+                            </p>
+                            <p>
+                                Vietcombank - Chi nhánh Thăng Long<br />
+                                STK: 0491000097094
+                            </p>
+                            <p>
+                                BIDV - Chi nhánh Thăng Long<br />
+                                STK: 22010000733789
+                            </p>
+                            <p>
+                                Techcombank - Chi nhánh Trần Đăng Ninh<br />
+                                STK: 19030777409996
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <label>
+                                <input type="radio" value="" /> Thanh toán online qua cổng 123Pay bằng thẻ ATM nội địa
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <label>
+                                <input type="radio" value="" /> Thanh toán online qua cổng 123Pay bằng thẻ Visa/Master/JCB
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="collection">
+                    <h4 class="collection-header">sale on now!</h4>
+                    <div>ĐƠN HÀNG (1 sản phẩm)</div>
+                    @for (int i = 0; i < 3; i++)
+                    {
+                        <div class="collection-item clearfix">
+                            <div class="pull-left">
+                                <h4>1 x iphone 7 plus 32gb black</h4>
+                                <p>BLACK</p>
+                            </div>
+                            <div class="pull-right">21.999.000 d</div>
+                        </div>
+                    }
+                    <h4 class="clearfix">
+                        <span class="pull-left">Tạm tính</span>
+                        <span class="pull-right">21.990.000 d</span>
+                    </h4>
+                    <div class="clearfix">
+                        <span class="pull-left">Phí vận chuyển</span>
+                        <span class="pull-right">0 d</span>
+                    </div>
+                    <div>
+                        <a href="#">Sử dụng mã giảm giá <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                    <h4 class="collection-footer clearfix">
+                        <span class="pull-left">TỔNG CỘNG</span>
+                        <span class="pull-right">21.990.000 d</span>
+                    </h4>
+                </div>
+
+                <button class="order-button text-uppercase">ĐẶT HÀNG</button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="~/Scripts/jquery-2.2.4.js"></script><!-- use $ 2x, or you can choose another slider -->
+    <script src="~/Scripts/velocity.min.js"></script><!-- after jquery, becuz valocity can use jquery as dependency -->
+    <script src="~/Scripts/jquery.waypoints.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/jquery.bxslider.min.js"></script><!-- vl, bxslider does not work with jquery 3x-->
+    <script src="~/Scripts/app/app.js"></script>
+    <script src="~/Scripts/app/common.js"></script>
+</body>
+</html>

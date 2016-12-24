@@ -199,7 +199,6 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ShoppingCartController.cs" />
-    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -262,6 +261,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\styles\partials\_slider.scss" />
     <Content Include="Content\styles\partials\_cart.scss" />
+    <Content Include="Content\styles\partials\_checkout.scss" />
     <None Include="Scripts\jquery-2.2.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.4.js" />
     <Content Include="Scripts\jquery-2.2.4.min.js" />
@@ -281,7 +281,6 @@
     <Content Include="Scripts\_references.js" />
     <Content Include="Uploads\437_htc_desire_10pro_royal_blue_a_medium.png" />
     <Content Include="Uploads\sdp_20pisen_20easy_20power_205000mah_201_medium.png" />
-    <Content Include="Views\Test\Index2.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -324,6 +323,7 @@
     <Content Include="Views\Home\_ProductIndex.cshtml" />
     <Content Include="Views\Home\_Slider.cshtml" />
     <Content Include="Views\ShoppingCart\Index.cshtml" />
+    <Content Include="Views\ShoppingCart\Checkout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
