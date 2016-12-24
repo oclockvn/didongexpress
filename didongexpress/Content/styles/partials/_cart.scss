@@ -93,3 +93,26 @@
         background: $red;
     }
 }
+
+a.cart-link {
+    position: relative;
+
+    .cart-count {
+        $size: 20px;
+
+        border: 2px solid $red;
+        width: $size;
+        height: $size;
+        line-height: $size - 4px; // 20 - 2 (border) x2
+        display: inline-block;
+        padding: 0;
+        position: absolute;
+        z-index: 2;
+        top: -4px;
+        right: 24px;
+        background: #fff;
+        border-radius: 50%;
+        text-align: center;
+        display: none; // only show when has item in cart
+    }
+}

@@ -469,3 +469,21 @@ html, body {
   .checkout-button:hover {
     color: #fff;
     background: #ef4136; }
+
+a.cart-link {
+  position: relative; }
+  a.cart-link .cart-count {
+    border: 2px solid #ef4136;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    display: inline-block;
+    padding: 0;
+    position: absolute;
+    z-index: 2;
+    top: -4px;
+    right: 24px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    display: none; }
