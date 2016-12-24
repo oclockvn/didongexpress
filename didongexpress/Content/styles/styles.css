@@ -304,7 +304,7 @@ html, body {
 
 .pi {
   text-align: center;
-  margin-bottom: 1rem; }
+  margin-bottom: 1.5rem; }
 
 .pi__image.fpt-logo {
   background: url(/Content/images/logo-fpt.png) top right no-repeat;
@@ -352,7 +352,7 @@ html, body {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4); }
 
 .button-buy:hover {
-  background: red;
+  background: #ef4136;
   color: #fff;
   border-color: #ef4136; }
 
@@ -360,9 +360,25 @@ html, body {
   margin: 0;
   margin-bottom: 1rem;
   border-bottom: 2px solid #ddd; }
+  .section-title h2 {
+    margin-top: 2.5rem;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    font-weight: 600; }
+  .section-title a {
+    color: #333;
+    text-decoration: none;
+    padding: 4px 8px; }
+    .section-title a:hover {
+      background: #ddd; }
 
-.section-title h2 {
-  margin-top: 2.5rem;
-  margin-bottom: .5rem;
-  font-size: 1.5rem;
-  font-weight: 600; }
+.bx-controls {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 40px; }
+  .bx-controls .bx-pager-link.active {
+    background: yellow !important; }
+
+.bx-wrapper {
+  margin: 1rem 0 2rem; }

@@ -1,0 +1,14 @@
+﻿.bx-controls {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 40px;
+
+    .bx-pager-link.active {
+        background: yellow !important;
+    }
+}
+
+.bx-wrapper {
+    margin: 0 !important;
+}

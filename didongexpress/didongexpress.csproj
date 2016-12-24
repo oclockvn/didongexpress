@@ -218,11 +218,16 @@
     <Content Include="Content\images\banner_info_2.jpg" />
     <Content Include="Content\images\banner_info_3.jpg" />
     <Content Include="Content\images\banner_info_4.jpg" />
+    <Content Include="Content\images\bx_loader.gif" />
+    <Content Include="Content\images\controls.png" />
     <Content Include="Content\images\logo-fpt.png" />
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\news\2016-12-22-khai-truong-online-1200x628in_large.jpg" />
+    <Content Include="Content\images\sliders\slider_1.jpg" />
+    <Content Include="Content\images\sliders\slider_2.jpg" />
     <Content Include="Content\images\support_footer.png" />
     <Content Include="Content\images\thong_bao_bct.png" />
+    <Content Include="Content\jquery.bxslider.css" />
     <Content Include="Content\spacing.min.css" />
     <Content Include="Content\styles\styles.css" />
     <Content Include="favicon.ico" />
@@ -250,16 +255,16 @@
     <Content Include="Content\styles\partials\_guide.scss" />
     <Content Include="Content\styles\partials\_news.scss" />
     <Content Include="Content\styles\partials\_index.scss" />
-    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\app\common.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\jquery-3.1.1.js" />
-    <Content Include="Scripts\jquery-3.1.1.min.js" />
-    <Content Include="Scripts\jquery-3.1.1.slim.js" />
-    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
-    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
-    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Content\styles\partials\_slider.scss" />
+    <None Include="Scripts\jquery-2.2.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.2.4.js" />
+    <Content Include="Scripts\jquery-2.2.4.min.js" />
+    <Content Include="Scripts\jquery-2.2.4.min.map" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.bxslider.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -310,6 +315,7 @@
     <Content Include="Views\Home\_NewsSection.cshtml" />
     <Content Include="Views\Home\_GuideSection.cshtml" />
     <Content Include="Views\Home\_ProductIndex.cshtml" />
+    <Content Include="Views\Home\_Slider.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

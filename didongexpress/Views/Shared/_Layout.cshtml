@@ -7,6 +7,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/spacing.min.css" rel="stylesheet" />
+    <link href="~/Content/jquery.bxslider.css" rel="stylesheet" />
     <link href="~/Content/styles/styles.css" rel="stylesheet" />
 </head>
 <body>
@@ -17,9 +18,10 @@
 
     @Html.Partial("_Footer")    
 
-    <script src="~/Scripts/jquery-3.1.1.js"></script>
+    
+    <script src="~/Scripts/jquery-2.2.4.js"></script><!-- use $ 2x, or you can choose another slider -->
     <script src="~/Scripts/bootstrap.js"></script>
-
-    <script src="@Url.Content("~/Scripts/bootstrap.js")"></script>
+    <script src="~/Scripts/jquery.bxslider.min.js"></script><!-- vl, bxslider does not work with jquery 3x-->
+    <script src="~/Scripts/app/common.js"></script>
 </body>
 </html>

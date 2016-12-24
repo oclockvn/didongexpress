@@ -61,7 +61,7 @@
 }
 
 .button-buy:hover {
-    background: red;
+    background: $red;
     color: #fff;
     border-color: $red;
 }
@@ -70,11 +70,21 @@
     margin: 0;
     margin-bottom: 1rem;
     border-bottom: 2px solid #ddd;
-}
 
-.section-title h2 {
-    margin-top: 2.5rem;
-    margin-bottom: .5rem;
-    font-size: 1.5rem;
-    font-weight: 600;
+    h2 {
+        margin-top: 2.5rem;
+        margin-bottom: .5rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    a {
+        color: #333;
+        text-decoration: none;
+        padding: 4px 8px;
+
+        &:hover {
+            background: #ddd;
+        }
+    }
 }
