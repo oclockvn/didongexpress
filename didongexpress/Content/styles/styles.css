@@ -487,3 +487,84 @@ a.cart-link {
     border-radius: 50%;
     text-align: center;
     display: none; }
+
+.checkout-container {
+  background: #fff;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid #ddd;
+  border-radius: 4px; }
+  .checkout-container .form-group {
+    border: 1px dashed #ef4136;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    border-radius: 5px;
+    padding: 0 8px; }
+    .checkout-container .form-group .form-control {
+      border: none;
+      outline: none !important;
+      box-shadow: none !important; }
+    .checkout-container .form-group .fa {
+      color: #ef4136;
+      font-size: .65rem; }
+
+.checkout-header {
+  padding: 1rem 0; }
+  .checkout-header .text-center a {
+    display: inline-block; }
+  .checkout-header .pull-left {
+    margin-top: 27px;
+    color: #111; }
+
+.co-title {
+  text-transform: uppercase; }
+
+.co-login {
+  border-bottom: 1px solid #ef4136;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem; }
+  .co-login a, .co-login span {
+    color: #ef4136;
+    text-decoration: none !important; }
+
+.collection {
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+  .collection .collection-header {
+    background: #ef4136;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    padding: 1rem 0;
+    font-weight: 600; }
+  .collection .collection-item {
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    margin: 0 10px; }
+    .collection .collection-item + .collection-item {
+      border-top: 1px solid #ddd; }
+    .collection .collection-item h4 {
+      margin: 0;
+      font-size: 1rem; }
+    .collection .collection-item p {
+      margin: 0; }
+  .collection .collection-footer {
+    background: #ddd;
+    margin: 0;
+    padding: 1rem;
+    font-weight: 600; }
+
+.order-button {
+  border: none;
+  padding: .8rem;
+  text-align: center;
+  width: 100%;
+  background: #ef4136;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.5rem; }
