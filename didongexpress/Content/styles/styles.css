@@ -142,3 +142,65 @@ html, body {
   background: #eee; }
 .footer .footer-3 {
   background: #e2e1e1; }
+
+.header-page h1 {
+  font-size: 22px;
+  border-bottom: 2px solid #9c9898;
+  margin-bottom: 2rem;
+  margin-top: 20px; }
+.header-page .m_l {
+  margin-left: 100px !important;
+  color: #636161;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.about__title .about-title strong {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ff9900; }
+.about__title h4 {
+  margin-right: 400px;
+  text-align: justify; }
+.about__title .tilte {
+  color: #afabab; }
+.about__title .content-about {
+  text-align: justify;
+  font-size: 12pt;
+  margin: 0;
+  margin-left: 20px; }
+.about__title .about-image img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0; }
+.about__title .ab__title {
+  padding-top: 25px;
+  margin-right: 24px; }
+  .about__title .ab__title strong {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ff9900; }
+  .about__title .ab__title .content__title {
+    padding-right: 400px; }
+.about__title .content__about {
+  text-align: justify;
+  margin: 0; }
+
+.about-bottom li {
+  text-align: left; }
+.about-bottom .title-bottom {
+  color: #b1b0b0;
+  font-weight: 600; }
+.about-bottom a {
+  color: #ff9900;
+  font-weight: 600; }
+.about-bottom a:hover {
+  text-decoration: none; }
+.about-bottom .number-bottom {
+  color: #ff9900;
+  font-weight: 600; }
+
+.line-border {
+  border-top: 2px solid #e1e1e1;
+  position: relative; }

@@ -1,0 +1,102 @@
+﻿.header-page {
+    h1 {
+        font-size: 22px;
+        border-bottom: 2px solid #9c9898;
+        margin-bottom: 2rem;
+        margin-top: 20px;
+    }
+
+    .m_l {
+        margin-left: 100px !important;
+        color: #636161;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+
+
+.about__title {
+    .about-title {
+        & strong {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: $about;
+        }
+    }
+
+    h4 {
+        margin-right: 400px;
+        text-align: justify;
+    }
+
+    .tilte {
+        color: #afabab;
+    }
+
+    .content-about {
+        text-align: justify;
+        font-size: 12pt;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    & .about-image img {
+        border: none;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ab__title {
+        padding-top: 25px;
+        margin-right: 24px;
+
+        & strong {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: $about;
+        }
+
+        .content__title {
+            padding-right: 400px;
+        }
+    }
+
+    .content__about {
+        text-align: justify;
+        margin: 0;
+    }
+}
+
+.about-bottom {
+    $bottom_color: #b1b0b0;
+
+    li {
+        text-align: left;
+    }
+
+    .title-bottom {
+        color: $bottom_color;
+        font-weight: 600;
+    }
+
+    a {
+        color: $about;
+        font-weight: 600;
+    }
+
+    & a:hover {
+        text-decoration: none;
+    }
+
+    .number-bottom {
+        color: $about;
+        font-weight: 600;
+    }
+}
+
+.line-border {
+    border-top: 2px solid #e1e1e1;
+    position: relative;
+}
