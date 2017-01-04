@@ -220,7 +220,10 @@
     <Content Include="Content\images\banner_info_3.jpg" />
     <Content Include="Content\images\banner_info_4.jpg" />
     <Content Include="Content\images\bx_loader.gif" />
+    <Content Include="Content\images\cac_co_dong3.jpg" />
+    <Content Include="Content\images\certificate.jpg" />
     <Content Include="Content\images\controls.png" />
+    <Content Include="Content\images\dsc_7541-chinh_sang.jpg" />
     <Content Include="Content\images\logo-fpt.png" />
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\news\2016-12-22-khai-truong-online-1200x628in_large.jpg" />
@@ -263,6 +266,7 @@
     <Content Include="Content\styles\partials\_slider.scss" />
     <Content Include="Content\styles\partials\_cart.scss" />
     <Content Include="Content\styles\partials\_checkout.scss" />
+    <Content Include="Content\styles\partials\_about.scss" />
     <None Include="Scripts\jquery-2.2.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.4.js" />
     <Content Include="Scripts\jquery-2.2.4.min.js" />
