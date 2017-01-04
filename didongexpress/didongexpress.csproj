@@ -198,6 +198,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ShoppingCartController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -280,6 +281,11 @@
     <Content Include="Scripts\waypoint-0.2.8.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Uploads\437_htc_desire_10pro_royal_blue_a_medium.png" />
+    <Content Include="Uploads\4_dien_thoai_oppo_f1s_32gb_dual_gold.jpg" />
+    <Content Include="Uploads\4_dien_thoai_oppo_f1s_32gb_dual_gold_a_small.png" />
+    <Content Include="Uploads\4_dien_thoai_oppo_f1s_32gb_dual_gold_b_master.png" />
+    <Content Include="Uploads\4_dien_thoai_oppo_f1s_32gb_dual_gold_b_small.png" />
+    <Content Include="Uploads\4_oppo_20f1s_gold_small.png" />
     <Content Include="Uploads\sdp_20pisen_20easy_20power_205000mah_201_medium.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -324,6 +330,9 @@
     <Content Include="Views\Home\_Slider.cshtml" />
     <Content Include="Views\ShoppingCart\Index.cshtml" />
     <Content Include="Views\ShoppingCart\Checkout.cshtml" />
+    <Content Include="Views\Product\Detail.cshtml" />
+    <Content Include="Views\Product\_DetailPrice.cshtml" />
+    <Content Include="Views\Product\_DetailImages.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
