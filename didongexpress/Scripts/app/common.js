@@ -54,5 +54,29 @@ $(document).ready(function () {
     }, {
         offset: '200px' // start action if offset top = 200px
     });
+
+    $('#pd-tab').on('click', 'a', function (e) {
+
+        // $('#some-id') ==> document.getElementById
+        // $('.some-class') ==> document.getElementsByClassName
+
+        e.preventDefault(); // prevent scroll to top when click a tag
+
+        var $self = $(this);
+        var $target = $($self.attr('href'));
+
+        if ($target.length > 0) {
+            if ($target.is('.active')) {
+                return; // click to it self
+            }
+
+            var $tab_content = $target.closest('#pd-tab-content');
+            $tab_content.find('.pd-tab-item').filter('.active').removeClass('active');
+            $target.addClass('active');
+
+            $self.closest('#pd-tab').children().filter('.active').removeClass('active');
+            $self.parent('li').addClass('active');
+        }
+    });
     
 });

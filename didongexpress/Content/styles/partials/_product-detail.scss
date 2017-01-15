@@ -1,0 +1,113 @@
+﻿// price
+.pd-price {
+    h3 {
+        font-size: 1.8rem;
+        margin: 0;
+    }
+
+    .pd-price .list-unstyled li + li {
+        margin-top: 2px;
+    }
+
+    .pd-price .list-unstyled li .fa {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+    }
+}
+
+.pd-save {
+    display: flex;
+    align-items: center;
+}
+
+.pd-buy {
+    display: flex;
+    align-items: center;
+}
+
+// images
+.pdi-main-img {
+    max-width: 200px;
+    margin: auto;
+}
+
+.pdi-color {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    margin-left: 20px;
+}
+
+.pdi-thumb img {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+// detail
+.pd-tab {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    li {
+        background-color: #ddd;
+        margin: 0 2px;
+        border-radius: 10px;
+        padding: .25rem 1rem;
+        display: flex;
+        align-items: center;
+        border: 1px solid #ddd;
+
+        &.active {
+            transform: scale(1, 1.2);
+            box-shadow: 0 1px 2px 0 rgba(0,0,0,.4);
+        }
+    }
+
+    a {
+        display: block;
+        max-width: 140px;
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-decoration: none !important;
+        color: #111 !important;
+    }
+}
+
+
+
+.pd-tab-content {
+    border: 2px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+
+    .pd-tab-item {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+}
+
+.table-detail {
+    td {
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    td[colspan] {
+        background: #eee;
+        color: $red;
+        font-weight: 600;
+    }
+
+    tbody tr:first-child td {
+        border-top: none;
+    }
+}

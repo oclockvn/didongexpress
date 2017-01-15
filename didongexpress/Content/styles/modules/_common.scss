@@ -10,3 +10,33 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.d-button {
+    border: none;
+    outline: none;
+    background-color: $red;
+    color: #fff;
+    text-transform: uppercase;
+    padding: .5rem 1.25rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: inline-block;
+
+    &.d-button--sm {
+        font-size: 1.2rem;
+        padding: .25rem .65rem;
+    }
+}
+
+.b0 {
+    border: none !important;
+}

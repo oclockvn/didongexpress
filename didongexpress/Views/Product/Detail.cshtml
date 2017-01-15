@@ -7,20 +7,20 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="pd-images">
+                <div class="pd-images mb+">
                     @Html.Partial("_DetailImages")
                 </div>
 
                 <div class="pd-detail">
                     <!-- need to create a custom tab -->
-                    <ul class="pd-tab">
-                        <li><a href="#">Thông số chi tiết</a></li>
-                        <li><a href="#">Điểm nổi bật</a></li>
-                        <li><a href="#">Đánh giá của khách hàng</a></li>
+                    <ul class="pd-tab list-unstyled" id="pd-tab">
+                        <li class="active"><a href="#pd-tab-detail">Thông số chi tiết</a></li>
+                        <li><a href="#pd-tab-highlight">Điểm nổi bật</a></li>
+                        <li><a href="#pd-tab-comment">Đánh giá của khách hàng</a></li>
                     </ul>
-                    <div class="pd-tab-content">
-                        <div id="pd-tab-detail" class="pd-tab-item">
-                            <table>
+                    <div class="pd-tab-content" id="pd-tab-content">
+                        <div id="pd-tab-detail" class="pd-tab-item active"><!-- target -->
+                            <table class="table table-bordered table-detail b0">
                                 <colgroup>
                                     <col />
                                     <col />
@@ -290,10 +290,10 @@
                                 </tbody>
                             </table>
                         </div>
-                        <div id="pd-tab-highlight" class="pd-tab-item">
+                        <div id="pd-tab-highlight" class="pd-tab-item"><!-- target -->
                             <img src="~/Uploads/4_dien_thoai_oppo_f1s_32gb_dual_gold.jpg" class="img-responsive" />
                         </div>
-                        <div id="pd-tab-comment" class="pd-tab-item">
+                        <div id="pd-tab-comment" class="pd-tab-item"><!-- target -->
                             <!-- embed fb comment -->
                         </div>
                     </div>
@@ -317,3 +317,9 @@
         <!-- slider -->
     </div>
 </section>
+
+@section scripts { section script?
+    <script>
+        // or we can move to external script
+    </script>
+}
