@@ -225,6 +225,7 @@
     <Content Include="Content\images\certificate.jpg" />
     <Content Include="Content\images\controls.png" />
     <Content Include="Content\images\dsc_7541-chinh_sang.jpg" />
+    <Content Include="Content\images\guides\guarantee\samsung.png" />
     <Content Include="Content\images\guides\payment\agribank_grande.png" />
     <Content Include="Content\images\guides\payment\banner_fb_like_stt_02.jpg" />
     <Content Include="Content\images\guides\payment\bidv_grande.png" />
@@ -367,6 +368,8 @@
     <Content Include="Views\Guide\_RecieveGuide.cshtml" />
     <Content Include="Views\Guide\RefundGuide.cshtml" />
     <Content Include="Views\Guide\_RefundGuide.cshtml" />
+    <Content Include="Views\Guide\GuaranteeGuide.cshtml" />
+    <Content Include="Views\Guide\_GuaranteeGuide.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

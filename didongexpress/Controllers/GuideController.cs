@@ -25,5 +25,9 @@ namespace didongexpress.Controllers
         {
             return View();
         }
+        public ActionResult GuaranteeGuide()
+        {
+            return View();
+        }
     }
 }
