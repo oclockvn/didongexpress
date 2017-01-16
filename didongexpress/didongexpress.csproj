@@ -234,6 +234,7 @@
     <Content Include="Content\images\guides\payment\screenshot_9.png" />
     <Content Include="Content\images\guides\payment\techcombank_grande.png" />
     <Content Include="Content\images\guides\payment\vietcombank_grande.png" />
+    <Content Include="Content\images\guides\recieve\banner_fb_like_stt_14.jpg" />
     <Content Include="Content\images\guides\shopping\banner_fb_like_stt_01.jpg" />
     <Content Include="Content\images\guides\shopping\cac_co_dong3.jpg" />
     <Content Include="Content\images\guides\shopping\screenshot_14.png" />
@@ -361,6 +362,8 @@
     <Content Include="Views\Guide\_LeftGuiDe.cshtml" />
     <Content Include="Views\Guide\PaymentGuide.cshtml" />
     <Content Include="Views\Guide\_PaymentGuide.cshtml" />
+    <Content Include="Views\Guide\RecieveGuide.cshtml" />
+    <Content Include="Views\Guide\_RecieveGuide.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
