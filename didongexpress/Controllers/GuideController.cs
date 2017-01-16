@@ -13,5 +13,9 @@ namespace didongexpress.Controllers
         {
             return View();
         }
+        public ActionResult PaymentGuide()
+        {
+            return View();
+        }
     }
 }

@@ -225,6 +225,15 @@
     <Content Include="Content\images\certificate.jpg" />
     <Content Include="Content\images\controls.png" />
     <Content Include="Content\images\dsc_7541-chinh_sang.jpg" />
+    <Content Include="Content\images\guides\payment\agribank_grande.png" />
+    <Content Include="Content\images\guides\payment\banner_fb_like_stt_02.jpg" />
+    <Content Include="Content\images\guides\payment\bidv_grande.png" />
+    <Content Include="Content\images\guides\payment\chuyen-phat-nhanh-cod-viettel-uy-tin-nhat1.jpg" />
+    <Content Include="Content\images\guides\payment\screenshot_10.png" />
+    <Content Include="Content\images\guides\payment\screenshot_6.png" />
+    <Content Include="Content\images\guides\payment\screenshot_9.png" />
+    <Content Include="Content\images\guides\payment\techcombank_grande.png" />
+    <Content Include="Content\images\guides\payment\vietcombank_grande.png" />
     <Content Include="Content\images\guides\shopping\banner_fb_like_stt_01.jpg" />
     <Content Include="Content\images\guides\shopping\cac_co_dong3.jpg" />
     <Content Include="Content\images\guides\shopping\screenshot_14.png" />
@@ -350,6 +359,8 @@
     <Content Include="Views\Guide\ShoppingGuide.cshtml" />
     <Content Include="Views\Guide\_ShoppingGuide.cshtml" />
     <Content Include="Views\Guide\_LeftGuiDe.cshtml" />
+    <Content Include="Views\Guide\PaymentGuide.cshtml" />
+    <Content Include="Views\Guide\_PaymentGuide.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
