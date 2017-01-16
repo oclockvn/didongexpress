@@ -196,6 +196,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\GuideController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
@@ -224,6 +225,16 @@
     <Content Include="Content\images\certificate.jpg" />
     <Content Include="Content\images\controls.png" />
     <Content Include="Content\images\dsc_7541-chinh_sang.jpg" />
+    <Content Include="Content\images\guides\shopping\banner_fb_like_stt_01.jpg" />
+    <Content Include="Content\images\guides\shopping\cac_co_dong3.jpg" />
+    <Content Include="Content\images\guides\shopping\screenshot_14.png" />
+    <Content Include="Content\images\guides\shopping\screenshot_15.png" />
+    <Content Include="Content\images\guides\shopping\screenshot_17.png" />
+    <Content Include="Content\images\guides\shopping\screenshot_18.png" />
+    <Content Include="Content\images\guides\shopping\screenshot_3.png" />
+    <Content Include="Content\images\guides\shopping\screenshot_4.png" />
+    <Content Include="Content\images\guides\shopping\screenshot_5.png" />
+    <Content Include="Content\images\guides\shopping\screenshot_9.png" />
     <Content Include="Content\images\logo-fpt.png" />
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\news\2016-12-22-khai-truong-online-1200x628in_large.jpg" />
@@ -336,6 +347,9 @@
     <Content Include="Views\Product\Detail.cshtml" />
     <Content Include="Views\Product\_DetailPrice.cshtml" />
     <Content Include="Views\Product\_DetailImages.cshtml" />
+    <Content Include="Views\Guide\ShoppingGuide.cshtml" />
+    <Content Include="Views\Guide\_ShoppingGuide.cshtml" />
+    <Content Include="Views\Guide\_LeftGuiDe.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
