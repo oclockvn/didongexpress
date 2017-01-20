@@ -196,7 +196,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\GuideController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
@@ -340,8 +339,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
@@ -374,17 +371,19 @@
     <Content Include="Views\Product\Detail.cshtml" />
     <Content Include="Views\Product\_DetailPrice.cshtml" />
     <Content Include="Views\Product\_DetailImages.cshtml" />
-    <Content Include="Views\Guide\ShoppingGuide.cshtml" />
-    <Content Include="Views\Guide\_ShoppingGuide.cshtml" />
-    <Content Include="Views\Guide\_LeftGuiDe.cshtml" />
-    <Content Include="Views\Guide\PaymentGuide.cshtml" />
-    <Content Include="Views\Guide\_PaymentGuide.cshtml" />
-    <Content Include="Views\Guide\RecieveGuide.cshtml" />
-    <Content Include="Views\Guide\_RecieveGuide.cshtml" />
-    <Content Include="Views\Guide\RefundGuide.cshtml" />
-    <Content Include="Views\Guide\_RefundGuide.cshtml" />
-    <Content Include="Views\Guide\GuaranteeGuide.cshtml" />
-    <Content Include="Views\Guide\_GuaranteeGuide.cshtml" />
+    <Content Include="Views\Home\ShoppingGuide.cshtml" />
+    <Content Include="Views\Home\_ShoppingGuide.cshtml" />
+    <Content Include="Views\Home\_LeftGuiDe.cshtml" />
+    <Content Include="Views\Home\PaymentGuide.cshtml" />
+    <Content Include="Views\Home\_PaymentGuide.cshtml" />
+    <Content Include="Views\Home\RecieveGuide.cshtml" />
+    <Content Include="Views\Home\_RecieveGuide.cshtml" />
+    <Content Include="Views\Home\RefundGuide.cshtml" />
+    <Content Include="Views\Home\_RefundGuide.cshtml" />
+    <Content Include="Views\Home\GuaranteeGuide.cshtml" />
+    <Content Include="Views\Home\_GuaranteeGuide.cshtml" />
+    <Content Include="Views\Home\SecurityGuide.cshtml" />
+    <Content Include="Views\Home\_SecurityGuide.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

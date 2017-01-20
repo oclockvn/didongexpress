@@ -35,5 +35,9 @@ namespace didongexpress.Controllers
         {
             return View();
         }
+        public ActionResult SecurityGuide()
+        {
+            return View();
+        }
     }
 }
