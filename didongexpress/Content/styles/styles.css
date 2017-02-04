@@ -142,6 +142,8 @@ html, body {
       text-decoration: none;
       color: #58595b;
       font-size: .9rem; }
+    .menu > li:hover {
+      background: #f3f3f3; }
   .menu a:hover {
     color: #ef4136;
     background: #f3f3f3; }
@@ -178,6 +180,43 @@ html, body {
     .header__search .btn-search:hover {
       background: #ef4136;
       color: #fff; }
+
+.has-sub {
+  position: relative; }
+
+.has-sub .sub-menu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 100;
+  background-color: #f3f3f3;
+  display: none;
+  visibility: hidden; }
+
+.has-sub:hover .sub-menu {
+  display: block;
+  visibility: visible; }
+
+.menu-sub {
+  white-space: nowrap; }
+
+.menu-sub ul {
+  white-space: nowrap;
+  min-width: calc(100px * 4); }
+
+.menu-sub ul li {
+  float: left;
+  width: 25%;
+  max-width: 100px;
+  min-width: 100px;
+  display: block; }
+
+.menu-sub a {
+  display: block;
+  color: #333;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 8px 16px; }
 
 .footer .footer-1 {
   background: #f8f8f8; }
