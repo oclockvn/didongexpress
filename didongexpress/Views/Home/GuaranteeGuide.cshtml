@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "GuaranteeGuide";
+}
+
+<section class="clearfix">
+    <div class="container guides--header">
+        <h4>TRUNG TÂM BẢO HÀNH SẢN PHẨM TRÊN TOÀN QUỐC</h4>
+    </div>
+    <div class="container">
+        <div class="row guides--left">
+            <div class="col-md-3">
+                @Html.Partial("_LeftGuide")
+            </div>
+            <div class="col-md-9 guides--content">
+                @Html.Partial("_GuaranteeGuide")
+            </div>
+        </div>
+    </div>
+    <hr />
+</section>
+

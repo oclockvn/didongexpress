@@ -15,16 +15,28 @@ namespace didongexpress.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult ShoppingGuide()
         {
-           
             return View();
         }
-
-        public ActionResult Contact()
+        public ActionResult PaymentGuide()
         {
-            ViewBag.Message = "Your contact page.";
-
+            return View();
+        }
+        public ActionResult RecieveGuide()
+        {
+            return View();
+        }
+        public ActionResult RefundGuide()
+        {
+            return View();
+        }
+        public ActionResult GuaranteeGuide()
+        {
+            return View();
+        }
+        public ActionResult SecurityGuide()
+        {
             return View();
         }
     }
