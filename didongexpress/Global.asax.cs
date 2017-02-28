@@ -1,4 +1,5 @@
-﻿using System;
+﻿using didongexpress.bus;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,6 +17,15 @@ namespace didongexpress
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            // register mapper for business
+            BusMapper.Register();
+
+            // register mapper for app
+            MapperConfig.Register();
+
+            // register dependency injection
+            IoCConfig.Register();            
         }
     }
 }
