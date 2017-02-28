@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace didongexpress.entities
 {
@@ -142,13 +143,9 @@ namespace didongexpress.entities
         public string Gift1 { get; set; }
         public string Gift2 { get; set; }
         public string Gift3 { get; set; }
-
-        // each product is in a category, so we need an foreign key here
-        // but, ..
-        // public Guid CategoryId { get; set; } // I am confusing, do we need a sub-category key? I think this is about optional
-        public Guid SubCategoryId { get; set; } // if a product alway in a sub-category, then we dont need one of CategoryId or SubCategoryId
-
-        // but i dont want to do this, becuz, ..i dont like it. so you cant read more if you want to do this
-        // public virtual Category Category { get; set; }
+        
+        [ForeignKey("SubCategory")]
+        public int? SubCategoryId { get; set; }
+        public Category SubCategory { get; set; }
     }
 }

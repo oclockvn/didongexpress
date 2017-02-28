@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿
+using System.Data.Entity;
 
 namespace didongexpress.entities
 {
@@ -27,13 +28,12 @@ namespace didongexpress.entities
         /// You can name it whatever you want
         /// For example
         /// </summary>
-        public DbSet<Product> Products { get; set; }
-
-        // we need to create more entities and more dbset (mean table)
-        // and here we go
-
+        public DbSet<Product> Products { get; set; }        
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<FileUpload> FileUploads { get; set; }
 
-        // just enough for now, we will add more table later
+        // customer + posts + bla bla...
     }
 }
