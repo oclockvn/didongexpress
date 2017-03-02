@@ -14,5 +14,8 @@ namespace didongexpress.repos.Repos
 
     public class FileUploadRepository : GenericRepository<FileUpload, int>, IFileUploadRepository
     {
+        public FileUploadRepository(ExpressDb db) : base(db)
+        {
+        }
     }
 }

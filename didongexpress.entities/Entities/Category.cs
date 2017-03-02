@@ -11,12 +11,7 @@ namespace didongexpress.entities
     {
         public string Name { get; set; }
 
-        /// <summary>
-        /// if parent id == null ==> this is a category
-        /// otherwise, this is a sub-category, and parent is parent id
-        /// </summary>
-        [ForeignKey("ParentCategory")]
-        public int? ParentId { get; set; }
+        
 
         /// <summary>
         /// sony-xperia-xa-16gb-dual-white ==> this is called slug (name of product for seo)
@@ -28,9 +23,14 @@ namespace didongexpress.entities
         /// </summary>
         public int Order { get; set; }        
 
-        // if you like navigation property, you can do like this
-        // I dont want too
         public ICollection<Product> Products { get; set; } // that mean, 1 category has many products
+
+        /// <summary>
+        /// if parent id == null ==> this is a category
+        /// otherwise, this is a sub-category, and parent is parent id
+        /// </summary>
+        [ForeignKey("ParentCategory")]
+        public int? ParentId { get; set; }
         public Category ParentCategory { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using didongexpress.bus.Bus;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,9 +9,16 @@ namespace didongexpress.Controllers
 {
     public class HomeController : Controller
     {
+        IProductBusiness _productBus = null;
+
+        public HomeController(IProductBusiness productBus)
+        {
+            _productBus = productBus;
+        }
+
         public ActionResult Index()
         {
-            "hasd".Prefix("c#");
+            var products = _productBus.AllProducts();
 
             return View();
         }

@@ -14,5 +14,8 @@ namespace didongexpress.repos.Repos
 
     public class OrderDetailRepository : GenericRepository<OrderDetail, int>, IOrderDetailRepository
     {
+        public OrderDetailRepository(ExpressDb db) : base(db)
+        {
+        }
     }
 }

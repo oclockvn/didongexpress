@@ -1,4 +1,5 @@
-﻿using System;
+﻿using didongexpress.repos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,11 @@ namespace didongexpress.bus
 
     public class Business : IBusiness
     {
+        protected IUnitOfWork _unit;
+
+        public Business(IUnitOfWork unit)
+        {
+            _unit = unit;
+        }
     }
 }

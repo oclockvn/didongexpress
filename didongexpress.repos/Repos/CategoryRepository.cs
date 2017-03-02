@@ -14,5 +14,8 @@ namespace didongexpress.repos.Repos
 
     public class CategoryRepository : GenericRepository<Category, int>, ICategoryRepository
     {
+        public CategoryRepository(ExpressDb db) : base(db)
+        {
+        }
     }
 }

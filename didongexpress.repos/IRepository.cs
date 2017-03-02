@@ -6,7 +6,12 @@ using System.Linq.Expressions;
 
 namespace didongexpress.repos
 {
-    public interface IRepository<T, Key> : IDisposable where T : class // T is BaseEntity
+    public interface IRepository : IDisposable
+    {
+
+    }
+
+    public interface IRepository<T, Key> : IRepository where T : class // T is BaseEntity
     {
         List<T> All(Expression<Func<T, bool>> predicate);
         T Get(Expression<Func<T, bool>> predicate);
@@ -24,10 +29,10 @@ namespace didongexpress.repos
         protected ExpressDb db = null;
         protected DbSet table;
 
-        public GenericRepository() : this(new ExpressDb())
-        {
+        //public GenericRepository() : this(new ExpressDb())
+        //{
 
-        }
+        //}
 
         public GenericRepository(ExpressDb db)
         {
@@ -87,7 +92,7 @@ namespace didongexpress.repos
                 if (disposing)
                 {
                     if (db != null)
-                    {                        
+                    {
                         db.Dispose();
                         db = null;
                     }
